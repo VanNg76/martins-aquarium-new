@@ -1,0 +1,111 @@
+/* * {
+    outline: 1px dotted red
+} */
+
+/* .bg-image {
+    background-image: url("/images/ha-long-bay.jpg");
+    background-size: cover;
+} */
+
+body {
+    background-image: url("/images/ha-long-bay.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    background-color: blueviolet;
+    color:red;
+}
+
+br {
+    line-height:300%;
+}
+
+h2 {
+    color:blue;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: lightblue;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: upper-roman;
+    color:seashell;
+}
+ul.fish-fact-ul {
+    list-style-type: square;
+    color:seashell;
+}
+ul.travel-and-location-tip-ul {
+    list-style-type: "🔔  ";
+    color:seashell;
+}
+
+li span {
+    color: gold;
+    font-weight: bold;    
+}
+
+.fish-collection {
+    padding: 5px;
+}
+
+.fish-fact {
+    display: flex;
+}
+
+.fish-image {
+    height: 100px;
+    width: 150px;
+}
+
+.column-1 {
+    float: left;
+    width:calc(32vw);
+    border:lightgreen;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 5mm;
+    padding: 3mm;
+}
+
+.column-2 {
+    float: left;
+    flex-direction: column;
+    width:calc(31vw);
+    margin: 5mm;
+    border:lightgreen;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3mm;
+    padding-bottom: 9mm;
+}
+
+.travel-and-location-tip {
+    margin: 3px;
+    color:seashell;
+}
+
+.column-3 {
+    float: left;
+    width:calc(25vw);
+    margin-top: 5mm;
+    border:lightgreen;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+    padding: 3mm;
+    padding-bottom: 84mm ;    
+}
+
