@@ -5,7 +5,7 @@ const database = {
             species: "gold fish",
             length: "5 inches",
             name: "GOLD",
-            where_it_havested: "Atlantic Ocean",
+            location: "Atlantic Ocean",
             food: "smaller fish"
         },
         {
@@ -13,7 +13,7 @@ const database = {
             species: "dragon fish",
             length: "10 inches",
             name: "DRAGON",
-            where_it_havested: "Pacific Ocean",
+            location: "Pacific Ocean",
             food: "smaller fish"
         },
         {
@@ -21,7 +21,7 @@ const database = {
             species: "orange fish",
             length: "7 inches",
             name: "ORANGE",
-            where_it_havested: "Medit Ocean",
+            location: "Medit Ocean",
             food: "smaller fish"
         }
     ]
